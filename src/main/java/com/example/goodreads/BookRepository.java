@@ -7,4 +7,9 @@ public interface BookRepository {
 
     public Book getBook(int id);
 
+    Book addBook(Book book);
+
+    Book updateBook(int bookId,Book book);
+
+    void deleteBook(int bookId);
 }

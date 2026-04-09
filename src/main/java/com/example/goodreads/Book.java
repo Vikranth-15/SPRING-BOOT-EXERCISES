@@ -1,17 +1,20 @@
 package com.example.goodreads;
 
 public class Book {
-    private int id;
+    private Integer id;
     private String name;
     private String imageUrl;
 
-    public Book(int id,String name ,String imageUrl){
+    public Book(Integer id,String name ,String imageUrl){
         this.id=id;
         this.name=name;
         this.imageUrl=imageUrl;
     }
 
-    public int getId() {
+    public Book() {
+    }
+
+    public Integer getId() {
         return id;
     }
 
